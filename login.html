@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-Us</title>
+    <!-- Extrenal CSS link-sheet -->
+    <link rel="stylesheet" href="/login.css">
+    <!-- Extrenal JS file link -->
+    <script src="/login.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <form class="form-login ">
+            <div class="form-header">
+                <h2 class="form-header-tittle" id="form-login-tittle">Login</h2>
+                <p class="form-error-msg" id="errorMessage">wrong username & password</p>
+                <div class="form-input">
+                    <input type="text" name="username" id="input-username" class="form-input-box logIn-input" value=""
+                        placeholder="Enter your userename">
+                    <!-- <p class="form-error-msg logIn" id="form-input-username-error">wrong username</p> -->
+                    <input type="password" name="password" id="input-password" class="form-input-box logIn-input"
+                        value="" placeholder="Enter your password">
+                    <!-- <p class="form-error-msg logIn" id="form-input-password-error">wrong password</p> -->
+                    <br>
+                    <button class="btn log-in-btn">Login</button>
+                    <p class=" contact-footer-btn"><a href="#" class="contact-foot-link" id="forgetPassword">forgot password ?</a></p>
+                    <p class=" contact-footer-btn">Already have account ?<a href="#" class="contact-foot-link"
+                            id="load-login"> Login</a></p>
+                </div>
+        </form>
+    </div>
+    <div class="conainer">
+        <form class="form-signup form--hidden">
+            <div class="form-header">
+                <h2 class="form-header-tittle" id="form-signup-tittle">Sign Up</h2>
+                <div class="form-input">
+                    <input type="email" name="email" id="signup-email" class="form-input-box signup-input" value="" placeholder="Enter valid email">
+                    <input type="text" name="username" id="signup-username" class="form-input-box logIn-input" value="" placeholder="Enter new userename">
+                    <input type="password" name="password" id="signup-password" class="form-input-box logIn-input"
+                        value="" placeholder="Enter new password">
+                    <!-- <p class="form-error-msg logIn" id="form-input-password-error">wrong password</p> -->
+                    <br>
+                    <button class="btn log-in-btn">Register</button>
+                    <p class=" contact-footer-btn">Don't have any?<a href="#" class="contact-foot-link"
+                            id="load-signup"> Register New</a></p>
+                </div>
+    
+        </form>
+    </div>
+</body>
+
+</html>
